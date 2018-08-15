@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851340AA2123A651000133A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851340A92123A651000133A1 /* AppDelegate.swift */; };
+		851340AC2123A651000133A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851340AB2123A651000133A1 /* ViewController.swift */; };
+		851340AF2123A651000133A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851340AD2123A651000133A1 /* Main.storyboard */; };
+		851340B12123A651000133A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851340B02123A651000133A1 /* Assets.xcassets */; };
+		851340B42123A651000133A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851340B22123A651000133A1 /* LaunchScreen.storyboard */; };
+		851340BF2123A651000133A1 /* PropinaBetinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851340BE2123A651000133A1 /* PropinaBetinTests.swift */; };
+		851340CA2123A651000133A1 /* PropinaBetinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851340C92123A651000133A1 /* PropinaBetinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		851340BB2123A651000133A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8513409E2123A650000133A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851340A52123A650000133A1;
+			remoteInfo = PropinaBetin;
+		};
+		851340C62123A651000133A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8513409E2123A650000133A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851340A52123A650000133A1;
+			remoteInfo = PropinaBetin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		851340A62123A651000133A1 /* PropinaBetin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropinaBetin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851340A92123A651000133A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		851340AB2123A651000133A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		851340AE2123A651000133A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		851340B02123A651000133A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851340B32123A651000133A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		851340B52123A651000133A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851340BA2123A651000133A1 /* PropinaBetinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropinaBetinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		851340BE2123A651000133A1 /* PropinaBetinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropinaBetinTests.swift; sourceTree = "<group>"; };
+		851340C02123A651000133A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851340C52123A651000133A1 /* PropinaBetinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropinaBetinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		851340C92123A651000133A1 /* PropinaBetinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropinaBetinUITests.swift; sourceTree = "<group>"; };
+		851340CB2123A651000133A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851340A32123A650000133A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851340B72123A651000133A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851340C22123A651000133A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8513409D2123A650000133A1 = {
+			isa = PBXGroup;
+			children = (
+				851340A82123A651000133A1 /* PropinaBetin */,
+				851340BD2123A651000133A1 /* PropinaBetinTests */,
+				851340C82123A651000133A1 /* PropinaBetinUITests */,
+				851340A72123A651000133A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		851340A72123A651000133A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851340A62123A651000133A1 /* PropinaBetin.app */,
+				851340BA2123A651000133A1 /* PropinaBetinTests.xctest */,
+				851340C52123A651000133A1 /* PropinaBetinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851340A82123A651000133A1 /* PropinaBetin */ = {
+			isa = PBXGroup;
+			children = (
+				851340A92123A651000133A1 /* AppDelegate.swift */,
+				851340AB2123A651000133A1 /* ViewController.swift */,
+				851340AD2123A651000133A1 /* Main.storyboard */,
+				851340B02123A651000133A1 /* Assets.xcassets */,
+				851340B22123A651000133A1 /* LaunchScreen.storyboard */,
+				851340B52123A651000133A1 /* Info.plist */,
+			);
+			path = PropinaBetin;
+			sourceTree = "<group>";
+		};
+		851340BD2123A651000133A1 /* PropinaBetinTests */ = {
+			isa = PBXGroup;
+			children = (
+				851340BE2123A651000133A1 /* PropinaBetinTests.swift */,
+				851340C02123A651000133A1 /* Info.plist */,
+			);
+			path = PropinaBetinTests;
+			sourceTree = "<group>";
+		};
+		851340C82123A651000133A1 /* PropinaBetinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				851340C92123A651000133A1 /* PropinaBetinUITests.swift */,
+				851340CB2123A651000133A1 /* Info.plist */,
+			);
+			path = PropinaBetinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		851340A52123A650000133A1 /* PropinaBetin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851340CE2123A651000133A1 /* Build configuration list for PBXNativeTarget "PropinaBetin" */;
+			buildPhases = (
+				851340A22123A650000133A1 /* Sources */,
+				851340A32123A650000133A1 /* Frameworks */,
+				851340A42123A650000133A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PropinaBetin;
+			productName = PropinaBetin;
+			productReference = 851340A62123A651000133A1 /* PropinaBetin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		851340B92123A651000133A1 /* PropinaBetinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851340D12123A651000133A1 /* Build configuration list for PBXNativeTarget "PropinaBetinTests" */;
+			buildPhases = (
+				851340B62123A651000133A1 /* Sources */,
+				851340B72123A651000133A1 /* Frameworks */,
+				851340B82123A651000133A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851340BC2123A651000133A1 /* PBXTargetDependency */,
+			);
+			name = PropinaBetinTests;
+			productName = PropinaBetinTests;
+			productReference = 851340BA2123A651000133A1 /* PropinaBetinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		851340C42123A651000133A1 /* PropinaBetinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851340D42123A651000133A1 /* Build configuration list for PBXNativeTarget "PropinaBetinUITests" */;
+			buildPhases = (
+				851340C12123A651000133A1 /* Sources */,
+				851340C22123A651000133A1 /* Frameworks */,
+				851340C32123A651000133A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851340C72123A651000133A1 /* PBXTargetDependency */,
+			);
+			name = PropinaBetinUITests;
+			productName = PropinaBetinUITests;
+			productReference = 851340C52123A651000133A1 /* PropinaBetinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8513409E2123A650000133A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maestro;
+				TargetAttributes = {
+					851340A52123A650000133A1 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					851340B92123A651000133A1 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 851340A52123A650000133A1;
+					};
+					851340C42123A651000133A1 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 851340A52123A650000133A1;
+					};
+				};
+			};
+			buildConfigurationList = 851340A12123A650000133A1 /* Build configuration list for PBXProject "PropinaBetin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8513409D2123A650000133A1;
+			productRefGroup = 851340A72123A651000133A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				851340A52123A650000133A1 /* PropinaBetin */,
+				851340B92123A651000133A1 /* PropinaBetinTests */,
+				851340C42123A651000133A1 /* PropinaBetinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851340A42123A650000133A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851340B42123A651000133A1 /* LaunchScreen.storyboard in Resources */,
+				851340B12123A651000133A1 /* Assets.xcassets in Resources */,
+				851340AF2123A651000133A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851340B82123A651000133A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851340C32123A651000133A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851340A22123A650000133A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851340AC2123A651000133A1 /* ViewController.swift in Sources */,
+				851340AA2123A651000133A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851340B62123A651000133A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851340BF2123A651000133A1 /* PropinaBetinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851340C12123A651000133A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851340CA2123A651000133A1 /* PropinaBetinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		851340BC2123A651000133A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851340A52123A650000133A1 /* PropinaBetin */;
+			targetProxy = 851340BB2123A651000133A1 /* PBXContainerItemProxy */;
+		};
+		851340C72123A651000133A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851340A52123A650000133A1 /* PropinaBetin */;
+			targetProxy = 851340C62123A651000133A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		851340AD2123A651000133A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851340AE2123A651000133A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		851340B22123A651000133A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851340B32123A651000133A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		851340CC2123A651000133A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		851340CD2123A651000133A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		851340CF2123A651000133A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PropinaBetin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ulsa.PropinaBetin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		851340D02123A651000133A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PropinaBetin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ulsa.PropinaBetin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		851340D22123A651000133A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PropinaBetinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ulsa.PropinaBetinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PropinaBetin.app/PropinaBetin";
+			};
+			name = Debug;
+		};
+		851340D32123A651000133A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PropinaBetinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ulsa.PropinaBetinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PropinaBetin.app/PropinaBetin";
+			};
+			name = Release;
+		};
+		851340D52123A651000133A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PropinaBetinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ulsa.PropinaBetinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PropinaBetin;
+			};
+			name = Debug;
+		};
+		851340D62123A651000133A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PropinaBetinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ulsa.PropinaBetinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PropinaBetin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851340A12123A650000133A1 /* Build configuration list for PBXProject "PropinaBetin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851340CC2123A651000133A1 /* Debug */,
+				851340CD2123A651000133A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851340CE2123A651000133A1 /* Build configuration list for PBXNativeTarget "PropinaBetin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851340CF2123A651000133A1 /* Debug */,
+				851340D02123A651000133A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		851340D12123A651000133A1 /* Build configuration list for PBXNativeTarget "PropinaBetinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851340D22123A651000133A1 /* Debug */,
+				851340D32123A651000133A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		851340D42123A651000133A1 /* Build configuration list for PBXNativeTarget "PropinaBetinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851340D52123A651000133A1 /* Debug */,
+				851340D62123A651000133A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8513409E2123A650000133A1 /* Project object */;
+}
